@@ -24,3 +24,42 @@ img{
 .search{
     border-color:  rgba(2, 130, 249, 1);
 }
+
+.jumbo{
+    background-image: url('../img/jumbotron.jpg');
+    height: 500px;
+}
+
+.jumbo button{
+        margin-top: 475px;
+        padding: 10px 15px;
+        color: white;
+        background-color: rgba(2, 130, 249, 1);
+        border: none;
+}
+
+.sect2{
+    background-color: rgba(28, 28, 28, 1);
+}
+
+
+.cards{
+      width: calc(100% / 6);
+      padding: 15px; 
+} 
+
+.cards img{
+    width: 150px
+}
+
+.contbut{
+    margin-left: 850px;
+}
+
+.contbut button{
+    padding: 10px 45px;
+    color: white;
+    background-color: rgba(2, 130, 249, 1);
+    border: none;
+}
+

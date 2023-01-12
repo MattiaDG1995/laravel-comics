@@ -6,10 +6,10 @@
 </div>
 
 
-        <div class="container d-flex justify-content-between align-items-center py-5">
-            <!-- <div>
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div>
                 <img src="{{ asset('img/dc-logo.png') }}" alt="">
-            </div> -->
+            </div>
             <div class="nav">
                 <span>CHARACTERS</span>
                 <span class="blue">COMIX</span>

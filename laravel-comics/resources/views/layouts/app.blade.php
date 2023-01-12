@@ -12,9 +12,21 @@
     <header>
         @include('components.header')
     </header>
+
     <main>
-        @include('components.main')
+        <div class="sect1">
+            @include('components.main-sect1')
+        </div>
+
+        <div class="sect2">
+            @yield('main-content')
+        </div>
+
+        <div class="sect3">
+            @include('components.main-sect3')
+        </div>
     </main>
+
     <footer>
 
     </footer>
