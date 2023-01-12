@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navblue{
+    background-color: #0282F9;
+}
+
+.nav span{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.blue{
+    border-bottom-color:  rgba(2, 130, 249, 1);
+}
+
+img{
+    width: 100px;
+}
+
+.search{
+    border-color:  rgba(2, 130, 249, 1);
+}
