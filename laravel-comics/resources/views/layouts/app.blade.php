@@ -28,7 +28,13 @@
     </main>
 
     <footer>
+        <div class="sect3">
+            @include('components.footer-sect1')
+        </div>
 
+        <div class="sect3">
+            @include('components.footer-sect2')
+        </div>
     </footer>
     
 </body>

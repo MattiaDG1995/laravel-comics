@@ -49,7 +49,7 @@ img{
 } 
 
 .cards img{
-    width: 150px
+    width: 100%
 }
 
 .contbut{
@@ -62,4 +62,112 @@ img{
     background-color: rgba(2, 130, 249, 1);
     border: none;
 }
+
+.sectblue{
+    background-color: rgba(2, 130, 249, 1);
+    color: white;
+}
+
+.contblue{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 20%;
+}
+
+.sectdc{
+    background-image: url('../img/footer-bg.jpg');
+    overflow: hidden;
+}
+
+.cont{
+    width: 70%;    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+.logo{
+        background-image: url('../img/dc-logo-bg.png');
+        width: 50%;
+        background-repeat: no-repeat;
+        background-position: 20px;
+}
+
+.contlist{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list{
+    margin-right: 50px;
+}
+    h4{
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    p{
+        color: gray;
+        margin-bottom: 3px;
+    }
+
+    .listbottom{
+        margin-top: 20px;
+    }
+
+    .sectSign{
+        background-color: rgba(48, 48, 48, 1);
+        /* z-index: 1; */       
+    }
+
+    .contSign{
+    width: 70%;    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    .footright h4{
+        border: 1px solid rgba(2, 130, 249, 1);
+        padding: 10px;
+        color: white;
+    }
+
+    .footleft{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .footleft  h4{
+        margin-right: 20px;
+        color: rgba(2, 130, 249, 1);
+    }
+
+    .footleft img{
+        padding: 10px;
+        width: 60px;
+    }
+            
+                    
+        
+  
+
 
