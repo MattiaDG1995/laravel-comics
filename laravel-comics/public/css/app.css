@@ -166,7 +166,36 @@ img{
         width: 60px;
     }
             
-                    
+   .section{
+    background-color: white;
+   } 
+   
+   .cont_card{
+    width: 60%;
+    margin: 0 auto;
+   }
+
+   .leftcard{
+    width: 60%;
+   }
+
+   .rightcard{
+    width: 25%;
+   }
+
+   .rightcard img{
+    width: 100%;
+   }
+
+   .rightcard P{
+    text-align: end;
+   }
+
+   .priceleft p{
+    margin-left: 300px;
+   }
+   
+
         
   
 
