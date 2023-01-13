@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@section('page-title', "dc comics-single comic")
 
 @section('main-content')
 <div class="section">
@@ -25,28 +24,5 @@
             <img src="{{ asset('img/adv.jpg') }}" alt="">
         </div>
     </div>
-
-    <div class="cont_card">
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Talent</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>art by:</td>
-      <td>{{$card_comix['description']}}</td>
-    </tr>
-
-    <tr>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-  </tbody>
-</table>
-    </div>
-    
 </div>
 @endsection
