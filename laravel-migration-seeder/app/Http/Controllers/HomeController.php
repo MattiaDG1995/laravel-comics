@@ -1,16 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Movie;
+use App\models\Train;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index(){
-        $all_movies = Movie::all();
+        $all_trains = Train::all();
 
-        /* dd($all_movies); */
-
-        return view('welcome', compact('all_movies') );
+        return view('welcome', compact('all_trains'));
     }
 }
