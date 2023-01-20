@@ -9,11 +9,14 @@
             <img class=""src="{{$singolo_elem->thumb}}" alt="">
         </div>
 
+        @if ( session('success') )
+            <div class="alert alert-success my-3">
+                {{ session('success') }}
+            </div>
+        @endif
+        
         <div  class="p-5">
             <p>{!!$singolo_elem->description!!}</p>
         </div>      
     </div>
-    
-    
-
 @endsection

@@ -26,7 +26,7 @@
 
     <div class="mb-3">
         <label class="form-label">prezzo</label>
-        <input name="price" type="number" class="form-control" id="title">
+        <input name="price" type="number" class="form-control" id="title" step="0.01">
     </div>
 
     <div class="mb-3">
