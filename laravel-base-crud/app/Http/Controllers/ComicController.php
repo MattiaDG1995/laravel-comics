@@ -80,6 +80,7 @@ class ComicController extends Controller
     public function update(Request $request, $id)
     {
         $data = $request->All();
+        
         $comic = Comic::findOrFail($id);
         $comic->update($data);
         return redirect()->route('comics.show', $comic->id)->with('success', "Hai modificato con successo il Fumetto: $comic->title");
